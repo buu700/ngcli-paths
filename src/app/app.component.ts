@@ -7,5 +7,8 @@ import * as test63987 from 'test63987';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  test63987 = JSON.stringify(test63987);
+  status = test63987.libsodiumReplacement ? 'success' : 'failure';
+  ngOnInit () {
+    console.log(test63987);
+  }
 }

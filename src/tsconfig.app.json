@@ -6,7 +6,7 @@
     "module": "es2015",
     "types": [],
     "paths": {
-      "libsodium-wrappers-sumo": "libsodium-replacement"
+      "libsodium-wrappers-sumo": ["libsodium-replacement"]
     }
   },
   "exclude": [
